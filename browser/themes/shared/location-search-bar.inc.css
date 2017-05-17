@@ -14,6 +14,11 @@
   margin: 0 2px;
 }
 
+#urlbar:-moz-lwtheme,
+.searchbar-textbox:-moz-lwtheme {
+  background-color: white;
+}
+
 #urlbar:-moz-lwtheme:not(:hover):not([focused="true"]),
 .searchbar-textbox:-moz-lwtheme:not(:hover):not([focused="true"]) {
   background-color: hsla(0, 100%, 100%, .8);
